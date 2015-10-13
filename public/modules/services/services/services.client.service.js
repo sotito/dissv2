@@ -1,15 +1,13 @@
 'use strict';
 
-angular.module('services').factory('Services', [
-	function() {
+angular.module('services').factory('Services', ['$resource',
+	function($resource) {
 		// Services service logic
-		// ...
-
-		// Public API
-		return {
-			someMethod: function() {
-				return true;
-			}
-		};
-	}
+		return $resource('services/:serviceId', { serviceId: '@_id'
+        }, {
+            update: {
+                method: 'PUT'
+            }
+        });
+    }
 ]);

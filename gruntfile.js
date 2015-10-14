@@ -141,7 +141,7 @@ module.exports = function(grunt) {
 			}
 		}
 	});
-
+	grunt.loadNpmTasks('grunt-node-inspector');
 	// Load NPM tasks
 	require('load-grunt-tasks')(grunt);
 

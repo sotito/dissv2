@@ -3,7 +3,7 @@
 module.exports = {
 	db: 'mongodb://localhost/mean-dev',
 	app: {
-		title: 'DiSS - Dynamically integrated Structured Systems'
+		title: 'Puerto Nuevo Denntal Supply'
 	},
 	facebook: {
 		clientID: process.env.FACEBOOK_ID || 'APP_ID',

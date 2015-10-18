@@ -13,29 +13,18 @@
 .ng-valid.ng-dirty {
 	border-color: #78FA89;
 }
-.jumbotron{
-	background-image: url("http://it-relocation.ca/wp-content/uploads/2015/06/caliber-it-server-relocation.jpg");
-	background-repeat: no-repeat;
 
+.container.ng-scope{
+	height: 75px;
+	background-image: url("opt/mean/diss/public/modules/core/img/logos/pnds.png");
 }
-
-.navbar-inverse .navbar-brand {
-    color: #2FA7C1;
-}
-.navbar {
-    min-height: 75px;
-}
-.btn{
-	border-radius: 0px;
-	background-image: linear-gradient(to bottom, #F8823F 0%, #DC7F3E 100%);
+.row.ng-scope{
+	margin-top: 100px;
 }
 
-h1, .h1 {
-    color: #FFFFFF;
-        margin: 0 0 16px;
-    font-family: wf_segoe-ui_light,"Segoe UI Light","Segoe WP Light","Segoe UI","Segoe WP",Tahoma,Arial,sans-serif;
-    font-weight: 400;
-    font-size: 50px;
-    line-height: 1.2em;
-   
+.container .jumbotron, .container-fluid .jumbotron{
+	padding-right: 0;
+	padding-left: 0;
+	padding-top: 0;
+	height: 700px;
 }

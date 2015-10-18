@@ -9,6 +9,15 @@ angular.module(ApplicationConfiguration.applicationModuleName).config(['$locatio
 		$locationProvider.hashPrefix('!');
 	}
 ]);
+angular.module('ui.bootstrap.carousel', ['ui.bootstrap.transition'])
+    .controller('CarouselController', ['$scope', '$timeout', '$transition', '$q', function ($scope, $timeout, $transition, $q) {
+    }]).directive('carousel', [function() {
+        return {
+
+        }
+}]);
+
+
 
 //Then define the init function for starting up the application
 angular.element(document).ready(function() {
@@ -18,3 +27,4 @@ angular.element(document).ready(function() {
 	//Then init the app
 	angular.bootstrap(document, [ApplicationConfiguration.applicationModuleName]);
 });
+
